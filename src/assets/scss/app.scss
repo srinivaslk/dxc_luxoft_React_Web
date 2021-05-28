@@ -1,0 +1,21 @@
+@import "./bootstrap.scss";
+@import "./components.scss";
+@import "./bootstrap-extended.scss";
+@import "./colors.scss";
+@import "./iconfont.scss";
+@import "./custom-rtl.scss";
+.error {
+    color: #fff;
+    display: block;
+    top: auto;
+    margin-top: 0.25rem !important;
+    left: 0;
+    padding: 0.4rem 0.775rem;
+    background-color: #ea5455;
+    border-radius: 0.428rem;
+    position: absolute;
+    z-index: 5;
+    max-width: 100%;
+    font-size: 0.857rem;
+    line-height: 1.45;
+  }
